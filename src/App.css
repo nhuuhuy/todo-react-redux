@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container-fluid{
+  /* padding: 0; */
+}
+
+/* BEGIN HEADER */
+.header{
+  width: 100%;
+  height: 70px;
+  color: white;
+}
+.header--left{
+  background-color: #722ED1;
+}
+
+.header--right{
+  background-color: #616161;
+}
+/* END HEADER */
+
+
+.user{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.btn--newTask{
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  background-color: #48a521;
+  color: white;
+}
+
+.btn--localStorage{
+  width: 80%;
+  height: 50px;
+  font-size: 20px;
+  background-color: darkcyan;
+  color: white;
+}
+
+.filter > ul {
+  font-size: 20px;
+}
+.filter> ul > li {
+  cursor: pointer;
+}
+
+.filter--label ul>li:nth-child(2) > i{
+  color: #389E0D ;
+}
+.filter--label ul>li:nth-child(3) > i{
+  color: #722ED1 ;
+}
+.filter--label ul>li:nth-child(4) > i{
+  color: #13C2C2 ;
+}
+.filter--label ul>li:nth-child(5) > i{
+  color: #CF1322  ;
+}
+
+table td, table th {
+  vertical-align: middle!important;
+}
